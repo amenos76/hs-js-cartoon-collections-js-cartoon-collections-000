@@ -3,7 +3,7 @@ var dwarfNames = ["Doc", "Dopey", "Bashful", "Grumpy"];
 function dwarfRollCall(dwarves) {
   var listDwarves = [];
   for (var i = 0; i < dwarves.length; i++) {
-    listDwarves.push(`${i++}. ${dwarves[i]} `);
+    listDwarves.push(`${i + 1}. ${dwarves[i]} `);
   }
   return listDwarves.join("");
 }
